@@ -15,7 +15,7 @@ class ActiveRecord::Base
   def self.transaction(&block)
     increment_open_transactions
     begin
-      connection.transaction(Fiber.current['start_db_transaction'], &block)
+      connection.transaction &block
     ensure
       decrement_open_transactions
     end

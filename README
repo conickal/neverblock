@@ -1,3 +1,6 @@
+=== Updates from conickal
+Fixes issues brought up with Rails > 2.3.4 and EventMachine > 0.12.10
+
 == NeverBlock
 Never, ever!
 
