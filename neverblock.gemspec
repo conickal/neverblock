@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
   s.name     = "neverblock"
-  s.version  = "0.1.6.1"
+  s.version  = "0.1.6.2"
   s.date     = "2008-11-06"
   s.summary  = "Utilities for non-blocking stack components"
-  s.email    = "oldmoe@gmail.com"
-  s.homepage = "http://github.com/oldmoe/neverblock"
+  s.email    = "conickal@gmail.com"
+  s.homepage = "http://github.com/conickal/neverblock"
   s.description = "NeverBlock is a collection of classes and modules that help you write evented non-blocking applications in a seemingly blocking mannner."
   s.has_rdoc = true
   s.authors  = ["Muhammad A. Ali", "Ahmed Sobhi", "Osama Brekaa"]
